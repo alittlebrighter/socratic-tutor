@@ -6,19 +6,6 @@ The system prompt creates a Socratic tutoring chatbot designed to help students 
 
 This can be run entirely on-premises with tools like [ollama](https://ollama.com/) and [open-webui](https://openwebui.com/) which eliminates third-party cloud data tracking, subscription fees, and complex COPPA/FERPA compliance overhead—making it an ideal blueprint for classroom sandboxes and privacy-first deployments.
 
----
-
-## Repository Structure
-
-```text
-├── LICENSE.md          # Strong copyleft protection (AGPLv3)
-├── README.md           # Project documentation
-├── .gitignore          # Keeps build artifacts out of version control
-├── system_prompt.md    # The core Socratic logic and persona rules
-├── build.sh            # Universal portability script to compile profiles
-└── models/             # Directory for hardware-specific configuration templates
-    └── gemma4_e4b_mini_pc.Modelfile
-```
 
 ## Getting Started
 
