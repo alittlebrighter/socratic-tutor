@@ -1,13 +1,11 @@
 FROM gemma4:e4b-it-qat
 
 PARAMETER temperature 0.8
-PARAMETER num_ctx 8192
+PARAMETER num_ctx 16384
 
 # --- HARDWARE TUNING ---
-# For Mini-PCs / CPU-heavy setups (e.g., Beelink EQi13), uncomment below:
-PARAMETER num_thread 4
 
 # For dedicated GPU setups, uncomment below:
-# PARAMETER num_gpu 99
+PARAMETER num_gpu 999
 
 SYSTEM
